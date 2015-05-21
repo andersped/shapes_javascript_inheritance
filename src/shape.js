@@ -4,7 +4,11 @@ function Shape(sides, color) {
 }
 
 Shape.prototype.area = function() {
-  return 0;
+  if(this.sides <= 1){
+  	return 0;
+  }else if (this.sides > 1){
+  	return this.sides * 2;
+  }
 };
 
 Shape.prototype.perimeter = function() {

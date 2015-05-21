@@ -15,7 +15,7 @@ describe("Rectangle", function() {
 
   describe("Perimeter", function() {
     it("should be 20 for a square with side lengths 4,6", function() {
-      expect(rectangle.area()).toEqual(20);
+      expect(rectangle.perimeter()).toEqual(20);
     });
   });
 
